@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "statics files local server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoseAngelChepo/photosserver.git"
+  },
+  "author": "mariachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseAngelChepo/photosserver/issues"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
