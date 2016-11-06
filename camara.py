@@ -68,8 +68,10 @@ def take():
 	
 def run():
 	try:
-		if(GPIO.input(sensor)):
-			take()
-			time.sleep(10)
+		configSensor()
+		while True:
+			if(GPIO.input(sensor)):
+				take()
+				time.sleep(10)
 	except:
 		print("Error python")
